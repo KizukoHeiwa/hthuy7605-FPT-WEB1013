@@ -1,0 +1,113 @@
+body{
+    font-family: "Montagu Slab", serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.signup-signin{
+    background: linear-gradient(to top, #009ac2, #7be5ff);
+    height: 100vh;
+    padding: 10px;
+}
+#fieldset{
+    padding: 10px;
+    border: 1px solid white;
+}
+#fieldset #label{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.signup-signin form{
+    margin: auto;
+    width: 50%;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.form-group label{
+    font-weight: 400;
+    /* font-variant: small-caps; */
+}
+.form-group fieldset{
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+.form-group input{
+    margin-top: 5px;
+    outline: none;
+    /* border-radius: 10px; */
+}
+.form-button:hover{
+    background-color: white;
+    color: black;
+}
+.form-button:active{
+    background-color: lightblue;
+    color: black;
+}
+.form-group input:focus:only-of-type{
+    background-color: lightblue;
+    /* box-shadow: 0 0 30px lightgray; */
+    /* border: 1px solid skyblue; */
+}
+.form-button{
+    height: 30px;
+    bottom: -30px;
+    width: 100px;
+    left: 0;
+    /* -webkit-box-shadow: 2px -2px 25px 2px rgba(0,0,0,0.15), -2px 2px 25px 2px rgba(0,0,0,0.15); 
+    box-shadow: 2px -2px 25px 2px rgba(0,0,0,0.15), -2px 2px 25px 2px rgba(0,0,0,0.15); */
+    background-color: black;
+    color: white;
+}
+.form-group select{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+}
+.form-group select option{
+    color: black;
+}
+.signup-signin label, legend{
+    color: white;
+}
+.labelName{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.signup-signin  input[type = "text"], .signup-signin input[type = "password"], .signup-signin input[type="email"]{
+    color: white;
+    border: 1px solid rgb(205, 184, 184);
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 100px;
+}
+.signup-signin textarea{
+    width: 100%;
+    height: 60px;
+    max-height: 90px;
+    min-height: 60px;
+    resize: vertical;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.signup-signin textarea:focus{
+    outline: none;
+}

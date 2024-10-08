@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JHT Shop</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Đăng ký</h1>
+                <span>Đăng ký bằng email và password</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="myShop.html" id="button">Đăng ký</a>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Đăng nhập</h1>
+                <span>Sử dụng email và password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <div class="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Ghi nhớ mật khẩu</label>
+                </div>
+                <a href="#">Quên mật khẩu?</a>
+                <a href="myShop.html" id="button">Đăng nhập</a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Chào mừng bạn đã đến với shop của tớ!</h1>
+                    <p>Bạn hãy đăng ký để sử dụng được nhiều tính năng hơn nhé!</p>
+                    <button class="hidden" id="login">Đăng nhập</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Chào mừng bạn quay trở lại!</h1>
+                    <p>Bạn hãy đăng nhập để sử dụng được nhiều tính năng hơn nhé!</p>
+                    <button class="hidden" id="register">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup-signin.js"></script>
+</body>
+</html>

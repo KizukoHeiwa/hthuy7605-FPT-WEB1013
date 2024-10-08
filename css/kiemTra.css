@@ -1,0 +1,90 @@
+nav{
+    position: relative;
+    bottom: -30px;
+    padding: 20px 50px;
+    width: 700px;
+}
+
+.navBottom{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    width: 1000px;
+    /* border: 1px solid gray; */
+}
+
+.navBottom a{
+    /* margin: auto; */
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    /* width: 100px; */
+    /* height: 50px; */
+    border: 1px solid transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navBottom a:hover{
+    border: 1px solid orange;
+    border-radius: 3px;
+    /* font-weight: bold; */
+    text-shadow: 0.8px 0px 0px orange;
+    color: orange;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemCol25{
+    text-align: left;
+    float: left;
+    width: 22%;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+}
+
+.itemCol25:hover{
+    border: 1px solid orange;
+}
+
+.itemCol25 .itemName{
+    word-wrap: break-word;
+    height: 50px;
+}
+
+.itemCol25 img{
+    max-width: 95%;
+    border: 1px solid transparent;
+}
+
+.itemCol25 img:hover{
+    border-radius: 3px;
+}
+
+.itemCol25 .rating img{
+    max-width: 5%;
+}
+
+.itemCol25 .itemPrice{
+    color: red;
+    font-weight: bold;
+
+}
+
+.itemCol25 .itemPrice del{
+    color: gray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.itemCol25 .rating{
+    color: gold;
+}
+

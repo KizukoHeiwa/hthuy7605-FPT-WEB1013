@@ -1,0 +1,27 @@
+h1 {
+    color: green;
+}
+legend{
+    color: blueviolet;
+    font-size: 30px;
+}
+fieldset{
+    border-color: aqua;
+    margin-right: 80%;
+}
+label.username{
+    color: red;
+}
+label.password{
+    color: blue;
+}
+.btnDangNhap{
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+.btnHuy{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
