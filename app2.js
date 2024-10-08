@@ -24,11 +24,11 @@ const products = [
         colors: [
             {
                 code: "black",
-                img: "/img/gundam-black.png",
+                img: "./img/gundam-black.png",
             },
             {
                 code: "rgb(51, 89, 194)",
-                img: "/img/gundam-blue.png",
+                img: "./img/gundam-blue.png",
             }
         ]
     },
@@ -40,11 +40,11 @@ const products = [
         colors: [
             {
                 code: "#6a6b4c",
-                img: "/img/tshirt-green.png",
+                img: "./img/tshirt-green.png",
             },
             {
                 code: "#363636",
-                img: "/img/tshirt-black.png",
+                img: "./img/tshirt-black.png",
             }
         ]
     },
@@ -56,11 +56,11 @@ const products = [
         colors: [
             {
                 code: "#f30c2c",
-                img: "/img/helmet-red.png",
+                img: "./img/helmet-red.png",
             },
             {
                 code: "#e66b88",
-                img: "/img/helmet-pink.png",
+                img: "./img/helmet-pink.png",
             }
         ]
     },
@@ -71,11 +71,11 @@ const products = [
         colors: [
             {
                 code: "blue",
-                img: "/img/gundam-blue.png",
+                img: "./img/gundam-blue.png",
             },
             {
                 code: "black",
-                img: "/img/gundam-black.png",
+                img: "./img/gundam-black.png",
             }
         ]
     },
@@ -86,12 +86,12 @@ const products = [
         colors: [
             {
                 code: "black",
-                img: "/img/tshirt-black.png",
+                img: "./img/tshirt-black.png",
             }
             ,
             {
                 code: "green",
-                img: "/img/tshirt-green.png",
+                img: "./img/tshirt-green.png",
             }
         ]
     }
